@@ -738,8 +738,8 @@ class ComposerStaticInit7b4b474b90121180cab8d0c3cfd1d67d
         ),
         'Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-http/message-factory/src',
-            1 => __DIR__ . '/..' . '/php-http/message/src',
+            0 => __DIR__ . '/..' . '/php-http/message/src',
+            1 => __DIR__ . '/..' . '/php-http/message-factory/src',
         ),
         'Http\\Discovery\\' => 
         array (
@@ -831,8 +831,8 @@ class ComposerStaticInit7b4b474b90121180cab8d0c3cfd1d67d
         ),
         'Doctrine\\Common\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/event-manager/src',
-            1 => __DIR__ . '/..' . '/doctrine/common/src',
+            0 => __DIR__ . '/..' . '/doctrine/common/src',
+            1 => __DIR__ . '/..' . '/doctrine/event-manager/src',
         ),
         'Dflydev\\DotAccessData\\' => 
         array (
@@ -2733,7 +2733,20 @@ class ComposerStaticInit7b4b474b90121180cab8d0c3cfd1d67d
         'DASPRiD\\Enum\\Exception\\UnserializeNotSupportedException' => __DIR__ . '/..' . '/dasprid/enum/src/Exception/UnserializeNotSupportedException.php',
         'DASPRiD\\Enum\\NullValue' => __DIR__ . '/..' . '/dasprid/enum/src/NullValue.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
+        'Database\\Seeders\\CurrencySeeder' => __DIR__ . '/../..' . '/database/seeders/CurrencySeeder.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
+        'Database\\Seeders\\DomainsTableSeeder' => __DIR__ . '/../..' . '/database/seeders/DomainsTableSeeder.php',
+        'Database\\Seeders\\EmailTemplatesTableSeeder' => __DIR__ . '/../..' . '/database/seeders/EmailTemplatesTableSeeder.php',
+        'Database\\Seeders\\FileManagersTableSeeder' => __DIR__ . '/../..' . '/database/seeders/FileManagersTableSeeder.php',
+        'Database\\Seeders\\FrontendSectionsTableSeeder' => __DIR__ . '/../..' . '/database/seeders/FrontendSectionsTableSeeder.php',
+        'Database\\Seeders\\GatewayCurrenciesSeeder' => __DIR__ . '/../..' . '/database/seeders/GatewayCurrenciesSeeder.php',
+        'Database\\Seeders\\GatewaySeeder' => __DIR__ . '/../..' . '/database/seeders/GatewaySeeder.php',
+        'Database\\Seeders\\LanguageSeeder' => __DIR__ . '/../..' . '/database/seeders/LanguageSeeder.php',
+        'Database\\Seeders\\PermissionsTableSeeder' => __DIR__ . '/../..' . '/database/seeders/PermissionsTableSeeder.php',
+        'Database\\Seeders\\RegisterFormsTableSeeder' => __DIR__ . '/../..' . '/database/seeders/RegisterFormsTableSeeder.php',
+        'Database\\Seeders\\SettingsTableSeeder' => __DIR__ . '/../..' . '/database/seeders/SettingsTableSeeder.php',
+        'Database\\Seeders\\TenantsTableSeeder' => __DIR__ . '/../..' . '/database/seeders/TenantsTableSeeder.php',
+        'Database\\Seeders\\UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeders/UsersTableSeeder.php',
         'DateError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
         'DateException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateException.php',
         'DateInvalidOperationException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateInvalidOperationException.php',
