@@ -11,6 +11,7 @@ database:
 commands:
   - "composer install --no-dev --optimize-autoloader"
   - "composer require spatie/laravel-permission"
+  - "composer require barryvdh/laravel-debugbar --dev"
   - "php artisan vendor:publish --all"
   - "php artisan migrate --force"
   - "php artisan key:generate"
@@ -19,3 +20,4 @@ commands:
   - "php artisan view:cache"
   - "php artisan storage:link"
   - "php artisan db:seed"
+  - "npm install"
